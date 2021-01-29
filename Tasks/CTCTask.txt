@@ -1,9 +1,12 @@
 Write a program that reads a file in binary mode, divides it into 64-byte chunks and calculates a 16-
 bit CRC of each chunk. The program must ask user to enter the filename.
+
 The file must be read into a dynamically allocated array of structures that contain data, data size and
 the CRC of the data. Note that only the last chunk may be shorter than 64 bytes. The whole file must
 be read before the CRC calculation takes place.
+
 When all data has been read the program prints a list of checksums. Each line must contain chunk
 number, chunk size and crc. CRC must be printed as a 4-digit hexadecimal number (see printf
 formatting).
+
 When the data has been printed the program must close the file and free all allocated memory
