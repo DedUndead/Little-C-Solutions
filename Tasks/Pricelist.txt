@@ -1,0 +1,23 @@
+Write a program that defines a structure to price information. The structure must contain name and
+price of the item. Program must define an array of structures and an integer to hold the count of
+items. The size of the array must be at least 20 elements and program must keep track of the actual
+count and ensure that array bound are not violated.
+
+The program reads the information from a file. The name of the file is asked from the user.
+Each item is stored on a single line. The price comes first and is separated from the name with a
+semicolon. For example:
+
+9.99;USB mouse
+19.98;SSD 128GB
+589.90;MSI GeForce RTX 2070 SUPER VENTUS OC
+59.90;HyperX Alloy Core RGB
+
+The program must check that both price and name are successfully read to accept the item in the
+list. When the end of file is reached the program prints count of items and the items in formatted
+columns as shown below (Note alignment of headings and data!):
+
+Name 					Price
+USB mouse		 		 9.99
+SSD 128GB 		 		 9.98
+MSI GeForce RTX 2070 SUPER VENTUS OC   589.90
+HyperX Alloy Core RGB 			59.90

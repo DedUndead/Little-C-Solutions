@@ -1,0 +1,6 @@
+Write a program that allows user to remove bytes from a binary file.
+
+Program asks user to enter file name and then displays the file size and asks user what to remove.
+User enters offset from the beginning of the file and number of bytes to remove. Program then
+overwrites the original file with the data where the user specified bytes are removed. Program must
+display error message if user tries to remove data past the end of the file or if the offset is invalid.

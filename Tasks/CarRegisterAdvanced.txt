@@ -1,0 +1,11 @@
+In this exercise the function interfaces aren't fully specified so you need to design the interface
+yourself. Note that all the information that the functions need must be passed as parameters.
+
+Define a structure to store car information. The structure must contain the following information:
+Make of the car (string), model of the car(string), price(int), co2 emissions g/km (float).
+
+Write a program that stores the structures in a file in binary mode. You can use a fixed file name.
+The program allows user to do the following:
+5. print all cars in the file
+6. add new car to the end of the file (ask user to enter information)
+7. quit the program.

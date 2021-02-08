@@ -1,0 +1,14 @@
+Write a program that reads strings and writes them to a file. The string must be dynamically
+allocated and the string can be of arbitrary length. When the string has been read it is written to the
+file. The length of the string must be written first then a colon (‘:’) and then the string. The program
+stops when user enters a single dot (‘.’) on the line.
+
+For example:
+User enters: This is a test
+Program writes to file: 14:This is a test
+
+Hint: fgets() writes a line feed at the end of the string if it fits in the string. Start with a small
+length, for example 16 characters, if you don’t see a line feed at the end then realloc the string to
+add more space and keep on adding new data to the string until you see a line feed at the end. Then
+you know that you have read the whole line. Then remove any ‘\r’ or ‘\n’ from the string and write
+the string length and the string to the file. Free the string before asking for a new string.
